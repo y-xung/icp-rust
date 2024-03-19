@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "canisters": {
+    "ecdsa_be": {
+      "type": "rust",
+      "package": "ecdsa_be",
+      "candid": "src/ecdsa_be/interface.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "output_env_file": ".env"
+}
